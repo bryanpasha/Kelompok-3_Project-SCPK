@@ -1,0 +1,29 @@
+
+
+/* --- Kustomisasi Tombol Utama  --- */
+div.stButton > button:first-child {
+    background: linear-gradient(135deg, #ff4b4b 0%, #cc0000 100%) !important;
+    color: white !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    border: none !important;
+    padding: 10px 24px !important;
+    transition: all 0.2s ease-in-out !important;
+    box-shadow: 0 4px 6px rgba(255, 75, 75, 0.2) !important;
+}
+
+/* --- Efek Hover Tombol --- */
+div.stButton > button:first-child:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 12px rgba(255, 75, 75, 0.4) !important;
+}
+
+/* --- Rapihin batas Sidebar  --- */
+[data-testid="stSidebar"] {
+    border-right: 1px solid rgba(128, 128, 128, 0.2) !important;
+}
+
+/* --- Rapihin Header Tabel bawaan --- */
+th {
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
